@@ -1,22 +1,15 @@
 function copyIP() {
-
     const ip = "play.galaxyland.ir";
 
     navigator.clipboard.writeText(ip);
 
-    const copyText =
-        document.getElementById("copyText");
+    const copyText = document.getElementById("copyText");
 
     if (copyText) {
-
-        copyText.textContent =
-            "✅ IP Copied!";
+        copyText.textContent = "✅ IP Copied!";
 
         setTimeout(() => {
-
-            copyText.textContent =
-                "Click to copy";
-
+            copyText.textContent = "Click to copy";
         }, 2000);
     }
 }

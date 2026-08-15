@@ -1,5 +1,5 @@
 function copyIP() {
-    const ip = "play.galaxyland.ir";
+    const ip = "درحال ساخت";
 
     navigator.clipboard.writeText(ip);
 
